@@ -15,7 +15,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color:  #161616;
-    margin: 90px 140px;
+    margin: 90px 100px;
     border-radius: 30px;
 }
 .header-content{
@@ -29,10 +29,12 @@ body{
     font-weight: 700;
     color: white;
     line-height: 80px;
+    margin-bottom: 20px;
 }
 .header-content>p{
     font-weight: 400;
     color: white;
+    margin-bottom: 20px;
 }
 .anchor-tag{
     text-decoration: none;
@@ -44,14 +46,17 @@ body{
     width: 100%;
 }
 /* main section blog style  */
+
 .main-top-section{
     margin: 0px 140px 90px;
-}
+    display: flex;
+    justify-content: center;
+   }
 .main-top-section .aside{
     background-color:  #161616;
     height: 312px;
     width: 312px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .aside{
     display: flex;
@@ -73,4 +78,64 @@ body{
 .aside-link .link-selected{
     background-color: yellow;
     color: w;
+}
+/* blog style  */
+article{
+    width: 312px;
+    border: 1px solid;
+    border-radius: 5px;   
+}
+article>img{
+    width: 312px;
+    height: 175px;
+}
+.article-inside{
+    padding: 20px;
+}
+.transfer{
+    border: 1px solid #161616;
+    padding: 4px 18px;
+    text-decoration: none;
+    border-radius: 10px;
+    }
+.article-inside .para{
+    font-weight: 600;
+}
+.time-comment{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.time-comment .time-comment-time{
+    margin-right: 30px;
+}
+
+.main-right{
+    margin-left: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+/* footer style  */
+footer{
+    background-color: 
+    #161616;
+}
+.footer-conternt{
+    margin-top: 130px;
+    padding: 140px;
+}
+.footer-conternt>h1{
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+.footer-link{
+    padding: 40px;
+}
+.footer-link>a{
+    text-decoration: none;
+    color: white;
+    padding: 40px;
+    font-weight: 200px;
 }
