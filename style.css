@@ -73,7 +73,6 @@ header{
 
 .main-top-section{
     /* margin: 0px 140px 90px; */
-    width: 90%;
     display: flex;
     justify-content: space-between;
    }
