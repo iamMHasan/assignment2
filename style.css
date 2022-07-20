@@ -140,6 +140,14 @@ article>img{
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
+.load-more{
+    text-align: center;
+    margin-top: 40px;
+    display: none;
+}
+.load-more>a{
+    font-size: 2rem;
+}
 /* footer style  */
 footer{
     background-color: 
@@ -239,7 +247,7 @@ responsive view
         width: 100%;
         margin-top: 10px;
         margin-bottom: 20px;
-        margin-right: 188px;
+        
     }
     
     .header-left{
@@ -282,14 +290,67 @@ responsive view
             padding: 0;
         }
 }
-
-@media only screen (min-width:601px) and (max-width:992px) {
+@media only screen and (min-width: 601px) and (max-width:1200px){
     .top-banner{
         flex-direction: column;
-       }
-    .main-right{
-        grid-template-columns: repeat(2, 1fr);
-        margin-left: 0;
-        margin-top: 24px;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        
     }
+        .header-left{
+            margin-left: 0px;
+        }
+        .header-left>h1{
+            font-size: 1.688rem;
+            line-height: 29px;
+        }
+        .header-left{
+            text-align: center;
+            margin-top: 0.5rem;
+            margin-bottom: 10px;
+        }
+        .header-content>p{
+            font-size: 10px;
+            font-weight: 200;
+            margin-bottom: 0px;
+        }
+        .anchor-tag{
+            padding: 5px 13px;
+        }
+        /* main part  */
+        .main-top-section .aside{
+            width: 100%;
+            height: auto;
+        }
+        .aside-link>a{
+            display: inline-block;
+            
+           }
+        .main-top-section{
+            flex-direction: column;
+        }
+        .main-right{
+            grid-template-columns: repeat(2, 1fr);
+            margin-left: 0;
+            margin-top: 24px;
+        }
+        .footer-conternt{
+            margin-top: 20px;
+            padding: 0;
+            text-align: center;
+        }
+        .footer-link>a{
+            text-align: center;
+            padding: 0;
+        }
+        .load-more{
+            text-align: center;
+            margin-top: 40px;
+            display: block;
+            }
+        .load-more>a{
+            font-size: 2rem;
+        }
+
 }
